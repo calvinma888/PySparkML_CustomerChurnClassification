@@ -30,7 +30,7 @@ Customer churn is one of the most important metrics of any business, because the
 
 The numerical features were scaled with the MinMax scalar in order to normalize the range. The cateogrical features were processed with One-Hot Encoding (OHE). Then, the numerical and categorical features were assembled into a features column containing vectors.
 
-After training all of the models, the gradient boosting model was selected because it had the highest F1 score and area under PR, selected because of the unbalanced nature of customers who exit and those who stayed. A gradient boosting model for the purpose of cross-validation was then created for hyperparameter tuning. The final model had an F1 score of 0.8371 and an accuracy of 0.8485.
+After training all of the models, the gradient boosting model was selected because it had the highest F1 score and area under PR; metrics were selected because of the unbalanced nature of customers who exit and those who stayed. A gradient boosting model for the purpose of cross-validation was then created for hyperparameter tuning. The final model had an F1 score of 0.8371 and an accuracy of 0.8485.
 
 ### Built With
 
